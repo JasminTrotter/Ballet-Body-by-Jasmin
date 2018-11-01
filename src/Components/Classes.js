@@ -31,7 +31,7 @@ export default class Classes extends React.Component {
 					<div className="class-panel class-panel2">
 						<h3>Barre and Center for Beginners</h3>
 						<h4>Level 1</h4>
-						<h5>Days/Times/Location TBD</h5>
+						<h5>Sundays 3:00pm-4:00pm</h5>
 						<h6>Description:</h6>
 						<p>
 							Barre and Center for Beginners is for students who have taken the First Day of Ballet class one or more times, or have taken ballet in the past and are familiar with plié, tendu, dégagé, rond de jambe, and fondu.
@@ -41,9 +41,9 @@ export default class Classes extends React.Component {
 						</p>
 					</div>
 					<div className="location-panel">
-						<h6>Location:</h6>
+						<h3>Location:</h3>
 						<p>Classes are held in the blue building on the southwest corner of NE MLK and Morris. Enter on the Morris side, through the gate that is farthest to the right as you are facing the building. If the gate is locked, text 503-388-9340 to be let in.</p>
-						<h6>Parking:</h6>
+						<h3>Parking:</h3>
 						<p>Street parking on Morris.</p>
 					</div>
 					

@@ -30,7 +30,7 @@
 .App-logo {
 	height: 120px;
 	margin-left: 20px;
-	top: 1.5px;
+	top: -3px;
 	left: 0px;
 	border: #B7DBF5 solid 2px;
 	border-radius: 50%;
@@ -53,17 +53,18 @@
 
 .hamburger {
 	width: 200px;
-	background-color: #CC8E83;
+	background-color: white;
+	border: #040706 solid 2px;
 	color: #040706;
 	padding: 12px;
-	border: none;
 	border-radius: 3px;
 	cursor: pointer;
 	text-decoration: none;
+	box-sizing: border-box;
 }
 
 .hamburger:active, .hamburger:hover, .hamburger:focus {
-	filter: brightness(0.5);
+	background-color: #CC8E83;
 }
 
 .navbar {
@@ -91,6 +92,15 @@
 	width: 25%;
 	display: flex;
 	flex-wrap: wrap;
+	display: block;
+}
+
+.tagbox div {
+	display: block;
+}
+
+.social-logo, .yelp-logo {
+	padding: 3px;
 }
 
 .Home, .Contact {
@@ -114,10 +124,13 @@
 
 .contacts {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .contact-item {
 	margin: auto;
+	max-width: 200px;
+    padding: 20px;
 }
 
 .yelp-logo {
@@ -399,7 +412,7 @@ ul {
 	}
 }
 
-@media all and (max-width: 898px) {
+@media all and (max-width: 1024px) {
 	.desktopNav {
 		display: none;
 	}
@@ -409,7 +422,7 @@ ul {
 		border-radius: 3px;
 	}
 	.App-header {
-		height: 125px;
+		height: 126px;
     	background-color: #B7DBF5;
     	position: fixed;
     	top: 0px;
@@ -438,6 +451,7 @@ ul {
 	}
 	.tagbox {
 		top: 30px;
+		display: block;
 	}
 
 }
@@ -460,13 +474,17 @@ ul {
 	.Home {
 		width: 80%;
 	}
+	.button-margin {
+		margin: 25px 15px 75px;
+	}
 }
 
 @media all and (max-width: 425px) {
-	.tagbox div {
-		display: block;
+	.button-margin {
+		display:block;
+		margin: 10px;
 	}
-	.social-logo, .yelp-logo {
-		padding: 3px;
+	p {
+		font-size: 12px;
 	}
 }

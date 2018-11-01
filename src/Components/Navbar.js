@@ -21,7 +21,7 @@ export default class Navbar extends React.Component {
 
             if(this.state.active) {
                   return (
-                        <nav className="mobileNav" style={{"backgroundColor":"#B7DBF5", "border": "#349EDB solid 2px", "zIndex":"9999"}}>
+                        <nav className="mobileNav" style={{"backgroundColor":"#B7DBF5", "zIndex":"9999"}}>
                               <div className="logo-container">
                                 <img src={logo} className="App-logo" alt="ballet body by jasmin logo" />
                               </div>
