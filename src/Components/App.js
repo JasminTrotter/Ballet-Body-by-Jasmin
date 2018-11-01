@@ -17,7 +17,7 @@ import Contact from './Contact';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App-container">
         <Router>
           <div className="App">
             <Header />

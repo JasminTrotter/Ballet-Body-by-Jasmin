@@ -5,16 +5,16 @@ export default function Navbar(props) {
 
 	return (
 		
-		<nav className="navbar">
+		<nav className="desktopNav">
 
-			<Link to="/">Home</Link>
-      		<Link to="/an-authentic-ballet-class">An Authentic Ballet Class</Link> 
+			<Link to="/" className="navlink">Home</Link>
+      		<Link to="/an-authentic-ballet-class" className="navlink">An Authentic Ballet Class</Link> 
       		<Link to="/you-belong-here">You Belong Here</Link>    
-      		<Link to="/classes">Classes</Link>
-      		<Link to="/pricing">Pricing</Link>
-      		<Link to="/meet-jasmin">Meet Jasmin</Link>
-      		<Link to="/FAQ">FAQ</Link>
-      		<Link to="/contact">Contact</Link>
+      		<Link to="/classes" className="navlink">Classes</Link>
+      		<Link to="/pricing" className="navlink">Pricing</Link>
+      		<Link to="/meet-jasmin" className="navlink">Meet Jasmin</Link>
+      		<Link to="/FAQ" className="navlink">FAQ</Link>
+      		<Link to="/contact" className="navlink">Contact</Link>
 
 		</nav>
 	);

@@ -6,7 +6,7 @@ export default function Pricing(props) {
 	return (
 		
 		<div className="Pricing">
-			<h2>Pricing</h2>
+			<h1>Pricing</h1>
 			<div className="price-container">
 				<div className="price-item">
 					<h3>Basic Package</h3>

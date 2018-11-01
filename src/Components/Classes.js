@@ -6,7 +6,7 @@ export default function Classes(props) {
 	return (
 		
 		<div className="ClassSchedule">
-			<h2>Class Schedule</h2>
+			<h1>Class Schedule</h1>
 				<div className="class-panel-container">
 				<div className="class-panel">
 					<h3>First Day of Ballet</h3>
