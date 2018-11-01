@@ -4,7 +4,9 @@ import logobullet from '../assets/images/logobullet.jpg';
 import headshot from '../assets/images/jasmin-trotter-headshot.JPG';
 
 export default class MeetJasmin extends React.Component {
-
+	componentDidMount() {
+  		window.scrollTo(0, 0)
+	}
 
 	render() {
 

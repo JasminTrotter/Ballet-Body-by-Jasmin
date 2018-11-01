@@ -4,10 +4,14 @@ import youBelong from '../assets/images/you-belong.png';
 
 
 export default class You extends React.Component {
+	componentDidMount() {
+  		window.scrollTo(0, 0)
+	}
+
 	render() {
 		return (
 			
-			<div className="article" style={{"textAlign":"left"}}>
+			<div className="you-article" style={{"textAlign":"left"}}>
 				<img src={youBelong} className="imagine"/>
 				<h1>You Belong Here.</h1>
 				<p>
@@ -16,7 +20,7 @@ export default class You extends React.Component {
 				<p>
 					Here, you will never face discrimination based on size, age, race, religion, gender identity/presentation, or sexual orientation. 
 				</p>
-				<h2 className="spicy-header">What makes a Ballet Body?</h2>
+				<h2 className="spicy-header ballet-body">What makes a Ballet Body?</h2>
 				<p>
 					At Ballet Body by Jasmin, we're reclaiming the meaning of "ballet body." It's a complete myth that only young and slender bodies are eligible to participate. Ballet Body by Jasmin values the way ballet dancing is diversely expressed through each unique body.
 				</p>

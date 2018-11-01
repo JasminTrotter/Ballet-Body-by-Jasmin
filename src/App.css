@@ -14,41 +14,130 @@
 
 .App {
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .App-header {
-	padding: 20px;
+	height: 50px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	z-index: 999;
 }
 
+
 .App-logo {
-	height: 250px;
+	height: 120px;
 	margin-left: 20px;
+	top: 1.5px;
+	left: 0px;
+	border: #B7DBF5 solid 2px;
+	border-radius: 50%;
+	padding: 3px;
+	background-color: white;
+	position: relative;
+
+}
+
+.margin-top {
+	position: relative;
+	top: 50px;
+	margin: auto;
+	margin-bottom: 150px;
+}
+
+.wrapper, .fb-video {
+	height: 300px;
+}
+
+.hamburger {
+	width: 200px;
+	background-color: #CC8E83;
+	color: #040706;
+	padding: 12px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.hamburger:active, .hamburger:hover, .hamburger:focus {
+	filter: brightness(0.5);
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+
+.desktopNav {
+ 	column-count: 8;
+ 	margin-left: auto;
+	display: flex;
+	font-size: 16px;
+	height: 25px;
+	position: fixed;
+	left: 0;
+	width: 100%;
 }
 
 .tagbox {
 	float: right;
 	text-align: right;
-	position: static;
+	position: relative;
+	top: 80px;
+	width: 25%;
+	display: flex;
+	flex-wrap: wrap;
 }
 
+.Home, .Contact {
+	width: 50%;
+	margin:auto;
+}
 
 .social-logo {
 	height: 40px;
 	padding: 10px;
+	cursor: pointer;
+}
+
+.gmail-logo {
+	height: 40px;
+	margin-right: 20px;
+	cursor: pointer;
+	position: relative;
+	top: 12px;
+}
+
+.contacts {
+	display: flex;
+}
+
+.contact-item {
+	margin: auto;
 }
 
 .yelp-logo {
-	height: 70px;
+	height: 45px;
 	padding: 10px;
+	filter: hue-rotate(330deg)
 }
 
 .yelp-logo:hover, .yelp-logo:active, .social-logo:hover, .social-logo:active {
 	filter: brightness(1.5);
+
+}
+
+.mobile-video-option {
+	display: none;
 }
 
 .tagline {
 	font-family: 'PlaylistScript';
-	font-size: 40px;
+	font-size: 30px;
 	float: right;
 	padding-left: 20px;
 }
@@ -63,8 +152,14 @@
 main {
 	text-align: center;
 	margin: auto;
-	width: 70%;
 	padding: 50px 10px;
+	height: 100vh;
+	position: relative;
+	top: 80px;
+}
+
+.Contact {
+	width: 70%;
 }
 
 nav {
@@ -82,7 +177,7 @@ nav {
 	color: #040706;
 	text-decoration: none;
 	margin: auto;
-	padding: 25px 10px;
+	padding: 24.5px 10px;
 	position: relative;
 	top: -22px;
 }
@@ -91,13 +186,23 @@ nav {
 	background-color: white;
 }
 
-.desktopNav {
-  column-count: 8;
-  margin-left: auto;
-  display: flex;
-  font-size: 16px;
-  height: 25px;
+
+.mobileNav a {
+    display: inline-block;
+    text-align: left;
+    top: 20px;
+    width: 165px;
+    margin-left: 25px;
+    padding: 5px;
+    height: 30px;
+
 }
+
+.mobileNav {
+	position: fixed;
+	z-index: 99;
+}
+
 
 h1, h2 {
 	font-family: 'Bebas';
@@ -108,6 +213,11 @@ h1, h2 {
 	max-width: 700px;
 	margin: auto;
 }
+
+.home-text {
+	padding-top: 60px;
+}
+
 
 p {
 	font-size: 16px;
@@ -141,7 +251,7 @@ p {
 	margin-bottom:30px;
 }
 
-button, .naving-button {
+.naving-button {
 	background-color: #CC8E83;
 	color: #040706;
 	padding: 12px;
@@ -149,10 +259,11 @@ button, .naving-button {
 	border-radius: 3px;
 	cursor: pointer;
 	text-decoration: none;
-
+	max-width: 100px;
 }
 
-button:hover, button:active, .naving-button:hover, .naving-button:active {
+
+.naving-button:hover, .naving-button:active {
 	background-color: #B7DBF5;	
 }
 
@@ -160,7 +271,20 @@ ul {
 	padding-left: 0px;
 }
 
-.Q-holder, .price-container {
+.you-article, .authentic-article, .location-panel {
+	width: 70%;
+	margin: auto;
+	margin-bottom: 80px
+}
+
+.location-panel {
+	border: #349EDB solid 2px;
+	width: 400px;
+	padding: 20px;
+	box-sizing: border-box ;
+}
+
+.Q-holder, .price-container, .class-panel-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -180,7 +304,21 @@ ul {
 	margin: 15px;
 }
 
-.aQ p, .price-item p {
+.class-panel1 {
+	border: #349EDB solid 2px;
+	border-radius: 3px;
+	width: 400px;
+	margin: 15px;
+}
+
+.class-panel2 {
+	border: #B7DBF5 solid 2px;
+	border-radius: 3px;
+	width: 400px;
+	margin: 15px;
+}
+
+.aQ p, .price-item p, .class-panel p {
 	margin: 25px;
 }
 
@@ -191,12 +329,31 @@ ul {
 	height: 70px;
 }
 
+.price-item p {
+	font-size: 13px;
+}
+.price-item {
+	width: 28%;
+}
 
-.price-item h3 {
+.price-item:hover, .price-item:active, .mobile-video-option:hover {
+	box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.50);
+ 	cursor: pointer;
+}
+
+
+.price-item h3, .class-panel h3 {
 	margin: 0px;
 	background-color: #B7DBF5;
 	padding: 25px;
 	height: 20px;
+}
+
+.price-item > h3 {
+	font-family: 'PlaylistScript';
+	font-size: 27px;
+	padding: 10px;
+	height: 40px;
 }
 
 .imagine {
@@ -204,7 +361,7 @@ ul {
 	float: right;
 	border: #CC8E83 solid 2px;
 	border-radius: 3px;
-	margin: 20px;
+	margin: 40px;
 }
 
 .buy-now {
@@ -212,3 +369,104 @@ ul {
 	right: 20%;
 }
 
+.button-margin {
+	top:  100px;
+	margin: 50px 50px;
+}
+
+.ballet-body {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.fa {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+@media all and (max-width: 1024px) {
+	.desktopNav {
+		font-size: 14px;
+	}
+
+}
+
+@media all and (max-width: 921px) {
+	.imagine {
+		width: 60%;
+		float: none;
+	}
+}
+
+@media all and (max-width: 898px) {
+	.desktopNav {
+		display: none;
+	}
+	nav {
+		width: 200px;
+		background-color: transparent;
+		border-radius: 3px;
+	}
+	.App-header {
+		height: 125px;
+    	background-color: #B7DBF5;
+    	position: fixed;
+    	top: 0px;
+
+
+	}
+	.App-logo {
+		height: 90px;
+		z-index: 999;
+	}
+	.logo-container {
+		background-color: #B7DBF5;
+	}
+	.mobileNav {
+		display: block;
+	}
+	main {
+		top: 150px;
+	}
+	.price-item p {
+		font-size: 12.5px;
+    	line-height: 1.5;
+	}
+	.price-item {
+		width: 70%;
+	}
+	.tagbox {
+		top: 30px;
+	}
+
+}
+
+@media all and (max-width: 768px) {
+	.imagine {
+		width: 90%;
+	}
+	.wrapper {
+		display: none;
+	}
+	.mobile-video-option {
+		display: block;
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media all and (max-width: 636px) {
+	.Home {
+		width: 80%;
+	}
+}
+
+@media all and (max-width: 425px) {
+	.tagbox div {
+		display: block;
+	}
+	.social-logo, .yelp-logo {
+		padding: 3px;
+	}
+}

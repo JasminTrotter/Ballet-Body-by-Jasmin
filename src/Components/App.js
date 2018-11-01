@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'; 
-
 import Navbar from './Navbar';
 import Header from './Header';
 import Home from './Home';
@@ -34,6 +33,7 @@ class App extends Component {
               <Route exact path="/contact" component={Contact} />
 
             </main>
+
           </div>
         </Router>
       </div>
