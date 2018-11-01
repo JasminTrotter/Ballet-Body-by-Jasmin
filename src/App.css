@@ -8,6 +8,10 @@
 	src: url(./assets/Playlist-Script.otf);
 }
 
+.hidden {
+	display: none;
+}
+
 .App {
     font-family: 'Roboto', sans-serif;
 }
@@ -21,6 +25,27 @@
 	margin-left: 20px;
 }
 
+.tagbox {
+	float: right;
+	text-align: right;
+	position: static;
+}
+
+
+.social-logo {
+	height: 40px;
+	padding: 10px;
+}
+
+.yelp-logo {
+	height: 70px;
+	padding: 10px;
+}
+
+.yelp-logo:hover, .yelp-logo:active, .social-logo:hover, .social-logo:active {
+	filter: brightness(1.5);
+}
+
 .tagline {
 	font-family: 'PlaylistScript';
 	font-size: 40px;
@@ -30,35 +55,26 @@
 
 .spicy-header {
 	font-family: 'PlaylistScript';
-	font-size: 20px;
+	font-size: 27px;
 	padding: 20px;
 }
 
-
-
-.tagbox {
-	float: right;
-	text-align: right;
-}
-
-
-.social-logo {
-	height: 40px;
-	padding: 10px;
-}
 
 main {
 	text-align: center;
 	margin: auto;
 	width: 70%;
-	max-width: 700px;
 	padding: 50px 10px;
 }
 
 nav {
   font-family: "Lato", sans-serif;
-  color: #040706;
   padding: 1% 0;
+
+/*  blackish*/
+  color: #040706;
+
+/*  light blue*/
   background-color: #B7DBF5;
 }
 
@@ -66,24 +82,31 @@ nav {
 	color: #040706;
 	text-decoration: none;
 	margin: auto;
+	padding: 25px 10px;
+	position: relative;
+	top: -22px;
 }
 
-.navlink:visited {
-	text-decoration: none;
+.navlink:hover, .navlink:active {
+	background-color: white;
 }
 
 .desktopNav {
   column-count: 8;
-  padding: 18px;
   margin-left: auto;
   display: flex;
   font-size: 16px;
-  height: 18px;
+  height: 25px;
 }
 
 h1, h2 {
 	font-family: 'Bebas';
 	letter-spacing: 3px;
+}
+
+.article {
+	max-width: 700px;
+	margin: auto;
 }
 
 p {
@@ -118,4 +141,74 @@ p {
 	margin-bottom:30px;
 }
 
+button, .naving-button {
+	background-color: #CC8E83;
+	color: #040706;
+	padding: 12px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+button:hover, button:active, .naving-button:hover, .naving-button:active {
+	background-color: #B7DBF5;	
+}
+
+ul {
+	padding-left: 0px;
+}
+
+.Q-holder, .price-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.aQ {
+	border: #CC8E83 solid 2px;
+	border-radius: 3px;
+	width: 400px;
+	margin: 15px;
+}
+
+.price-item {
+	border: #349EDB solid 2px;
+	border-radius: 3px;
+	width: 400px;
+	margin: 15px;
+}
+
+.aQ p, .price-item p {
+	margin: 25px;
+}
+
+.aQ h3 {
+	margin: 0px;
+	background-color: #CC8E83;
+	padding: 25px;
+	height: 70px;
+}
+
+
+.price-item h3 {
+	margin: 0px;
+	background-color: #B7DBF5;
+	padding: 25px;
+	height: 20px;
+}
+
+.imagine {
+	width: 30vw;
+	float: right;
+	border: #CC8E83 solid 2px;
+	border-radius: 3px;
+	margin: 20px;
+}
+
+.buy-now {
+	position: fixed;
+	right: 20%;
+}
 

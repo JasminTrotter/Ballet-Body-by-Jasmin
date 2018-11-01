@@ -1,19 +1,22 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import youBelong from '../assets/images/you-belong.png';
+
 
 export default class You extends React.Component {
 	render() {
 		return (
 			
-			<div className="You">
-				<h1>You Belong Here</h1>
+			<div className="article" style={{"textAlign":"left"}}>
+				<img src={youBelong} className="imagine"/>
+				<h1>You Belong Here.</h1>
 				<p>
 					Ballet Body by Jasmin is a safe, welcoming, and judgement-free environment for all bodies. Our student body represents a broad range of ages, sizes, and abilities.
 				</p>
 				<p>
 					Here, you will never face discrimination based on size, age, race, religion, gender identity/presentation, or sexual orientation. 
 				</p>
-				<h2>What makes a Ballet Body?</h2>
+				<h2 className="spicy-header">What makes a Ballet Body?</h2>
 				<p>
 					At Ballet Body by Jasmin, we're reclaiming the meaning of "ballet body." It's a complete myth that only young and slender bodies are eligible to participate. Ballet Body by Jasmin values the way ballet dancing is diversely expressed through each unique body.
 				</p>

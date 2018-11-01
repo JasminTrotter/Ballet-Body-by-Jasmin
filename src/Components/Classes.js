@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
-export default function Classes(props) {
+export default function Classes() {
 
 	return (
 		
@@ -35,7 +35,7 @@ export default function Classes(props) {
 						In Barre and Center, you will rely on the knowledge you have gained in First Day of Ballet to learn new steps. After warm-up and barre exercises, students will learn a short combination dance in the center floor. The combination gracefully pieces together steps that were just learned at the barre, and will have you leaving class feeling like a real dancer!
 					</p>
 				</div>
-				<Link to='/pricing'>View Pricing</Link>
+				<Link className="naving-button" to='/pricing'>View Pricing</Link>
 			</div>
 		</div>
 	);

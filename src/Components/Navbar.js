@@ -7,7 +7,7 @@ export default function Navbar(props) {
 		
 		<nav className="desktopNav">
 
-			<Link to="/" className="navlink">Home</Link>
+			<Link to="/" className="navlink" onClick={()=>window.location.reload()}>Home</Link>
       		<Link to="/an-authentic-ballet-class" className="navlink">An Authentic Ballet Class</Link> 
       		<Link to="/you-belong-here" className="navlink">You Belong Here</Link>    
       		<Link to="/classes" className="navlink">Classes</Link>

@@ -7,11 +7,10 @@ export default class MeetJasmin extends React.Component {
 
 
 	render() {
-		const bullet = ``
 
 		return (
 			
-			<div className="MeetJasmin">
+			<div className="article">
 				<h1>Meet Jasmin</h1>
 				<h2 className="spicy-header">Owner, Founder of Ballet Body by Jasmin</h2>
 				<img src={headshot} className="headshot" />
