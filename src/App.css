@@ -12,6 +12,15 @@
 	margin-left: 20px;
 }
 
+.social-div {
+	float: right
+}
+
+.social-logo {
+	height: 40px;
+	padding: 10px;
+}
+
 main {
 	text-align: center;
 	margin: auto;
