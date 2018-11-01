@@ -6,7 +6,7 @@ export default class You extends React.Component {
 		return (
 			
 			<div className="You">
-				<h2>You Belong Here</h2>
+				<h1>You Belong Here</h1>
 				<p>
 					Ballet Body by Jasmin is a safe, welcoming, and judgement-free environment for all bodies. Our student body represents a broad range of ages, sizes, and abilities.
 				</p>

@@ -9,7 +9,7 @@ export default function Navbar(props) {
 
 			<Link to="/" className="navlink">Home</Link>
       		<Link to="/an-authentic-ballet-class" className="navlink">An Authentic Ballet Class</Link> 
-      		<Link to="/you-belong-here">You Belong Here</Link>    
+      		<Link to="/you-belong-here" className="navlink">You Belong Here</Link>    
       		<Link to="/classes" className="navlink">Classes</Link>
       		<Link to="/pricing" className="navlink">Pricing</Link>
       		<Link to="/meet-jasmin" className="navlink">Meet Jasmin</Link>

@@ -3,18 +3,44 @@
 	src: url(./assets/Bebas.ttf);
 }
 
+@font-face {
+	font-family: PlaylistScript;
+	src: url(./assets/Playlist-Script.otf);
+}
+
+.App {
+    font-family: 'Roboto', sans-serif;
+}
+
 .App-header {
 	padding: 20px;
 }
 
 .App-logo {
-	height: 200px;
+	height: 250px;
 	margin-left: 20px;
 }
 
-.social-div {
-	float: right
+.tagline {
+	font-family: 'PlaylistScript';
+	font-size: 40px;
+	float: right;
+	padding-left: 20px;
 }
+
+.spicy-header {
+	font-family: 'PlaylistScript';
+	font-size: 20px;
+	padding: 20px;
+}
+
+
+
+.tagbox {
+	float: right;
+	text-align: right;
+}
+
 
 .social-logo {
 	height: 40px;
@@ -55,6 +81,41 @@ nav {
   height: 18px;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Bebas';
+	letter-spacing: 3px;
 }
+
+p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.about-list {
+	text-align: left;
+	list-style: none;
+	line-height: 25px;
+	font-size: 15px;
+}
+
+.about-list li {
+	display: flex;
+	padding: 15px;
+}
+
+.about-text {
+	padding-top: 10px;
+}
+
+.bullet {
+	padding-right: 25px;
+}
+
+.headshot {
+	height: 250px;
+	border-radius: 50%;
+	border: 5px solid #CC8E83;
+	margin-bottom:30px;
+}
+
+

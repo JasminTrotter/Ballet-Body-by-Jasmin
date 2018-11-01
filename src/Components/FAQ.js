@@ -5,8 +5,8 @@ export default function FAQ(props) {
 
 	return (
 		
-		<div className="Authentic">
-			<h2>Frequently Asked Questions</h2>
+		<div className="faq">
+			<h1>Frequently Asked Questions</h1>
 			<h3>I have no grace or coordination and I am afraid of embarrassing myself. How could I dare to set foot in a ballet class?</h3>
 			<p>
 				You belong here. A ballet workout is just what you need to develop the grace and coordination you wish to have. One of the things I love most about ballet is that it's very logical. Learning ballet is done in increments, with each basic step as a building block for more complex movements later down the road. That's why you won't get lost in overly complicated choreography or be asked to do anything outside of your abilities. In this class, you build up your strength and movement vocabulary step by step. Additionally, each step itself is logical in its mechanics--where your weight is held, which muscles are engaged, and how your body is aligned in executing the step. I break down each step to its fundamental parts, and you will be taught clearly both through visual demonstration and verbal communication. Finally, you won't embarrass yourself here--all of your fellow classmates are beginners like you!
