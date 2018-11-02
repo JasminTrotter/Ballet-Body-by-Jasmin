@@ -22,7 +22,7 @@ export default class Contact extends React.Component {
 					If you have any questions, or would like to be sent email update alerts, or just want to say hi, the best way to reach me is by email! I hope to see you in class soon.
 				</p>
 				<div className="contacts">
-					<div className="email contact-item">
+					<div className="email">
 						<a href="mailto:jasmin@balletbodybyjasmin.com" target="_blank"><img src={gmail} className="social-logo" /></a>
 						<div>jasmin@balletbodybyjasmin.com</div>
 					</div>

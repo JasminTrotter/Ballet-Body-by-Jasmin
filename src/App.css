@@ -133,6 +133,11 @@
     padding: 20px;
 }
 
+.email {
+	margin: auto;
+	max-width: 200px;
+}
+
 .yelp-logo {
 	height: 45px;
 	padding: 10px;
@@ -383,8 +388,9 @@ ul {
 }
 
 .button-margin {
-	top:  100px;
+	top: 50px;
 	margin: 50px 50px;
+	position: relative;
 }
 
 .ballet-body {
@@ -396,6 +402,11 @@ ul {
 .fa {
 	font-size: 20px;
 	margin-left: 10px;
+}
+
+.button-div {
+	height: 250px;
+	position: relative;
 }
 
 @media all and (max-width: 1024px) {
