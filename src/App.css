@@ -344,7 +344,7 @@ ul {
 	margin: 0px;
 	background-color: #CC8E83;
 	padding: 25px;
-	height: 70px;
+	min-height: 70px;
 }
 
 .price-item p {
