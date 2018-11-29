@@ -24,7 +24,7 @@ export default class Contact extends React.Component {
 				<div className="contacts">
 					<div className="email">
 						<a href="mailto:jasmin@balletbodybyjasmin.com" target="_blank"><img src={gmail} className="social-logo" /></a>
-						<div>balletbodybyjasmin@gmail.com</div>
+						<div>jasmin@balletbodybyjasmin.com</div>
 					</div>
 
 					<p className="contact-item">(503) 388-9340</p>
