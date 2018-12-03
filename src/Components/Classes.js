@@ -16,6 +16,8 @@ export default class Classes extends React.Component {
 						<h3>First Day of Ballet</h3>
 						<h4>Introduction/Assessment</h4>
 						<h5>Sundays 2:00pm-3:00pm</h5>
+						<h5 style={{"color":"red"}}>Reservation Required.</h5>
+						<h5>email jasmin@balletbodybyjasmin.com to request a reservation.</h5>
 
 						<h6>Description:</h6>
 						<p>
