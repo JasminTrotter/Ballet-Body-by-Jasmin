@@ -269,6 +269,13 @@ p {
 	margin-bottom:30px;
 }
 
+.authentic-img {
+	width: 50%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
 .naving-button {
 	background-color: #CC8E83;
 	color: #040706;
@@ -497,5 +504,10 @@ ul {
 	}
 	p {
 		font-size: 12px;
+	}
+
+	.authentic-img {
+		margin-left: 15px;
+		margin-bottom: 15px;
 	}
 }
