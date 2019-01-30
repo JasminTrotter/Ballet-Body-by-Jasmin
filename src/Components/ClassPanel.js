@@ -24,6 +24,7 @@ export default class ClassPanel extends React.Component {
     render() {
 
         const label = this.state.hideLabel ? 'Hide' : 'Read More';
+        const moreButton = this.props.more1 ? <button className="naving-button" onClick={this.toggleHidden.bind(this)}>{label}</button> : null;
 
         return (
 
@@ -38,7 +39,7 @@ export default class ClassPanel extends React.Component {
 						<p>
 							{this.props.description}
 						</p>
-                        <button className="naving-button" onClick={this.toggleHidden.bind(this)}>{label}</button>
+                        {moreButton}
                         <div>
                             {!this.state.isHidden && <MoreInfo more1={this.props.more1} more2={this.props.more2}/> }
                         </div>

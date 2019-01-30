@@ -11,7 +11,7 @@ const firstDayDescription1 = "(Returning students who would like a refresher on 
 const firstDayDescription2 = "Jasmin breaks down five foundation steps of ballet: plié, tendu, dégagé, rond de jambe, and fondu. You must be exposed to these steps as a foundation before you are able to move on to more complex ballet steps. In First Day of Ballet, the entire hour-long class is at the barre in order for students to learn these foundation steps with the support of the barre.";
 const barreAndCenterDescription = "Barre and Center for Beginners is for students who have taken the First Day of Ballet class one or more times, or have taken ballet in the past and are familiar with plié, tendu, dégagé, rond de jambe, and fondu.";
 const barreAndCenterDescription1 = "In Barre and Center, you will rely on the knowledge you have gained in First Day of Ballet to learn new steps. After warm-up and barre exercises, students will learn a short combination dance in the center floor. The combination gracefully pieces together steps that were just learned at the barre, and will have you leaving class feeling like a real dancer!";
-// const barreAndCenterDescription2 = "";
+const openLevelDescription = "Open level is a variable level class. The level is determined by the first student to sign up for the slot. If you are a brand new student and you request a reservation for this slot, the class will be taught in the First Day of Ballet intro level format. If you are a returning student, the class will be a Barre and Center Level 1 format, unless you request it to be an introductory level class."
 
 export default class Classes extends React.Component {
 	
@@ -28,7 +28,8 @@ export default class Classes extends React.Component {
 				<div className="class-panel important-info">
 					<h3>Important Information:</h3>
 					<p>Current class times are indicated on the calendar below.</p>
-					<p>For new students who need to take the introductory First Day of Ballet lesson, contact me if you desire a class time other than what is listed on the calendar. I will do my best to accommodate you.</p>
+					<p>New students who need to take an introductory lesson, you may sign up for a First Day of Ballet or an Open Level class.</p>
+					<p>Returning students or new students with prior ballet experience, you may sign up for a Barre and Center for Beginners or an Open Level class.</p>
 					<h4 style={{"color":"red",fontSize: '19px'}}>All classes require prior reservation.</h4>
 					<h5>email jasmin@balletbodybyjasmin.com to request a reservation.</h5>
 
@@ -46,6 +47,7 @@ export default class Classes extends React.Component {
 				<div className="class-panel-container">
 					<ClassPanel header={"First Day of Ballet"} subHeader={"Introduction/Assessment"} description={firstDayDescription} more1={firstDayDescription1} more2={firstDayDescription2} />
 					<ClassPanel header={"Barre and Center for Beginners"} subHeader={"Level 1"} description={barreAndCenterDescription} more1={barreAndCenterDescription1} />
+					<ClassPanel header={"Open Level"} subHeader={"Variable Level Class"} description={openLevelDescription} />
 					
 				</div>
 				
