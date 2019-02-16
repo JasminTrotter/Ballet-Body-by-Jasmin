@@ -13,7 +13,7 @@ export default class Pricing extends React.Component {
 
 				<h1>Pricing</h1>
 				<div className="price-container">
-					<div className="price-item" onClick={() => window.open('https://student-portal-balletbody.herokuapp.com/')}>
+					<div className="price-item" onClick={() => window.open('https://www.balletbodybyjasmin.app/')}>
 						<h3>Basic Package</h3>
 						<h4>2 Classes $32</h4>
 						<p>
@@ -21,7 +21,7 @@ export default class Pricing extends React.Component {
 						</p>
 
 					</div>
-					<div className="price-item" onClick={() => window.open('https://student-portal-balletbody.herokuapp.com/')}>
+					<div className="price-item" onClick={() => window.open('https://www.balletbodybyjasmin.app/')}>
 						<h3>Trainer Package</h3>
 						<h4>4 Classes for $62</h4>
 						<p>
@@ -29,7 +29,7 @@ export default class Pricing extends React.Component {
 						</p>
 
 					</div>
-					<div className="price-item" onClick={() => window.open('https://student-portal-balletbody.herokuapp.com/')}>
+					<div className="price-item" onClick={() => window.open('https://www.balletbodybyjasmin.app/')}>
 						<h3>Royal Package</h3>
 						<h4>8 Classes for $120</h4>
 						<p>

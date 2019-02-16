@@ -26,7 +26,7 @@ export default class Navbar extends React.Component {
                                 <img src={logo} className="App-logo" alt="ballet body by jasmin logo" />
                               </div>
                               <button className="hamburger" onClick={()=>{this.hamburgerShow()}}>Menu <i class="fa fa-angle-double-up"></i></button>
-                              <Link to="/" className="navlink" onClick={()=>window.location.reload()}>Home</Link>
+                              <Link to="/" className="navlink">Home</Link>
                               <Link to="/an-authentic-ballet-class" className="navlink" onClick={()=>{this.hamburgerShow()}}>An Authentic Ballet Class</Link> 
                               <Link to="/you-belong-here" className="navlink" onClick={()=>{this.hamburgerShow()}}>You Belong Here</Link>    
                               <Link to="/classes" className="navlink" onClick={()=>{this.hamburgerShow()}}>Classes</Link>
@@ -44,7 +44,7 @@ export default class Navbar extends React.Component {
       		<div className="navbar">
             		<nav className="desktopNav">
                   <img src={logo} className="App-logo" alt="ballet body by jasmin logo" />
-            			<Link to="/" className="navlink" onClick={()=>window.location.reload()}>Home</Link>
+            			<Link to="/" className="navlink">Home</Link>
                   		<Link to="/an-authentic-ballet-class" className="navlink">An Authentic Ballet Class</Link> 
                   		<Link to="/you-belong-here" className="navlink">You Belong Here</Link>    
                   		<Link to="/classes" className="navlink">Classes</Link>
