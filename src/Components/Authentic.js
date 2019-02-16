@@ -12,7 +12,7 @@ export default class Authentic extends React.Component {
 				
 				<h1>An  Authentic  Ballet  Class  For  Beginners</h1>
 
-				<p>Many of today's “barre method" classes are chiefly comprised of isometric exercises and include the use of weights, balls, bands, and other props to assist during the workout. While these classes are excellent workouts that contribute to improved strength and stamina, they do not teach the same exercises done at the barre during a Classical Ballet class. Although "barre method" programs claim to include elements of ballet, their exercises and sessions do not actually involve ballet dancing.</p>
+				<p>Many of today's <i>barre method</i> classes are chiefly comprised of isometric exercises and include the use of weights, balls, bands, and other props to assist during the workout. While these classes are excellent workouts that contribute to improved strength and stamina, they do not teach the same exercises done at the barre during a Classical Ballet class. Although <i>barre method</i> programs include movements inspired by ballet, their exercises and sessions do not actually involve ballet dancing.</p>
 
 				<p className="spicy-header">Ballet Body by Jasmin is different.</p>
 
