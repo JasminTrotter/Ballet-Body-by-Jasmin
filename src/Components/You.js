@@ -12,7 +12,7 @@ export default class You extends React.Component {
 		return (
 			
 			<div className="you-article" style={{"textAlign":"left"}}>
-				<img src={youBelong} className="imagine"/>
+				<img src={youBelong} alt="students with hands on the barre" className="imagine"/>
 				<h1>You Belong Here.</h1>
 				<p>
 					Ballet Body by Jasmin is a safe, welcoming, and judgement-free environment for all bodies. Our student body represents a broad range of ages, sizes, and abilities.

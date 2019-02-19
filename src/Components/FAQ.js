@@ -52,7 +52,7 @@ export default class FAQ extends React.Component {
 					</div>
 				</div>
 				<div className="button-div">
-					<a href="https://student-portal-balletbody.herokuapp.com/" target="_blank" className="naving-button button-margin">Sign Me Up!</a>
+					<a href="https://student-portal-balletbody.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="naving-button button-margin">Sign Me Up!</a>
 					<Link to='/contact' className="naving-button button-margin">I've Still Got Questions!</Link>
 				</div>
 			</div>

@@ -4,10 +4,6 @@ import igblack from '../assets/images/ig-black.png';
 import fbblack from '../assets/images/fb-black.png';
 import gmail from '../assets/images/gmail.png';
 
-import ig from '../assets/images/ig.png';
-import fb from '../assets/images/fb.png';
-import yelp from '../assets/images/yelpers.png';
-
 export default class Contact extends React.Component {
 	componentDidMount() {
   		window.scrollTo(0, 0)
@@ -23,7 +19,7 @@ export default class Contact extends React.Component {
 				</p>
 				<div className="contacts">
 					<div className="email">
-						<a href="mailto:jasmin@balletbodybyjasmin.com" target="_blank"><img src={gmail} className="social-logo" /></a>
+						<a href="mailto:jasmin@balletbodybyjasmin.com" target="_blank" rel="noopener noreferrer"><img src={gmail} alt="gmail logo" className="social-logo" /></a>
 						<div>jasmin@balletbodybyjasmin.com</div>
 					</div>
 
@@ -32,8 +28,8 @@ export default class Contact extends React.Component {
 					
 					<div className="social-contacts contact-item">
 						<h5>Let's Socialize!</h5>
-						<a href="https://www.facebook.com/balletbodybyjasmin" target="_blank"><img src={fbblack} className="social-logo" /></a>
-						<a href="https://www.instagram.com/balletbodybyjasmin" target="_blank"><img src={igblack} className="social-logo" /></a>
+						<a href="https://www.facebook.com/balletbodybyjasmin" target="_blank" rel="noopener noreferrer"><img src={fbblack} alt="facebook logo" className="social-logo" /></a>
+						<a href="https://www.instagram.com/balletbodybyjasmin" target="_blank" rel="noopener noreferrer"><img src={igblack} className="social-logo" alt="instagram logo"/></a>
 					</div>
 				</div>
 			

@@ -19,7 +19,7 @@ export default class Home extends React.Component {
 					<p>...an authentic ballet class for adult beginners.</p>
 					<p className="spicy-header">Based in Portland, Oregon.</p>
 					<Video />
-					<img src={teaching} className="mobile-video-option" onClick={() => {window.open('https://www.facebook.com/balletbodybyjasmin/videos/1450342838352816')}}/>
+					<img src={teaching} className="mobile-video-option" alt="Jasmin teaching a ballet class" onClick={() => {window.open('https://www.facebook.com/balletbodybyjasmin/videos/1450342838352816')}}/>
 					<h5 className="mobile-video-option">Click on the image to view an informational video</h5>
 				</div>
 				<div className="home-text">

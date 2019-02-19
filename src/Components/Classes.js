@@ -36,7 +36,7 @@ export default class Classes extends React.Component {
 				</div>
 
 				<div className="google-calendar">
-					<iframe src="https://calendar.google.com/calendar/b/1/embed?title=Class%20Schedule&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=jasmin%40balletbodybyjasmin.com&amp;color=%231badf8&amp;ctz=America%2FLos_Angeles" 
+					<iframe title="google calendar" src="https://calendar.google.com/calendar/b/1/embed?title=Class%20Schedule&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=jasmin%40balletbodybyjasmin.com&amp;color=%231badf8&amp;ctz=America%2FLos_Angeles" 
 						style={{"borderWidth":"0"}} 
 						width="330" 
 						height="500" 
