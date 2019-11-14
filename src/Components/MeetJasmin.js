@@ -1,17 +1,15 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import logobullet from '../assets/images/logobullet.jpg';
 import headshot from '../assets/images/jasmin-trotter-headshot.JPG';
 
 export default class MeetJasmin extends React.Component {
 	componentDidMount() {
-  		window.scrollTo(0, 0)
+		window.scrollTo(0, 0)
 	}
 
 	render() {
-
 		return (
-			
 			<div className="article">
 				<h1>Meet Jasmin</h1>
 				<h2 className="spicy-header">Owner, Founder of Ballet Body by Jasmin</h2>
@@ -28,7 +26,7 @@ export default class MeetJasmin extends React.Component {
 					<li><img alt="dancer bullet point" className="social-logo bullet" src={logobullet} /><div className="about-text">attended Summer Intensive Programs with American Ballet Theater, Princeton Dance and Theater Studio, and Boston Ballet, respectively, each of which had required her to be chosen from auditions among hundreds of other prospective program attendees.</div></li>
 					<li><img alt="dancer bullet point" className="social-logo bullet" src={logobullet} /><div className="about-text">danced with <a href="https://polarisdance.org/" rel="noopener noreferrer" target="_blank">Polaris Dance Theater</a> for the 2017-2018 season.</div></li>
 					<li><img alt="dancer bullet point" className="social-logo bullet" src={logobullet} /><div className="about-text">is a very passionate dance instructor and enjoys spreading the love of dance to the world.</div></li>
-					<li><img alt="dancer bullet point" className="social-logo bullet" src={logobullet} /><div className="about-text">is a also very passionate Full Stack web developer, and she built this website from scratch with ReactJS. She works as a freelance web dev, so check out her portfolio <a href="https://jasmintrotter.github.io/portfolio" target="_blank">here</a> and shoot her an <a href="mailto:jasminmtrotter@gmail.com">email</a> for a quote if you are interested in her services.</div></li>
+					<li><img alt="dancer bullet point" className="social-logo bullet" src={logobullet} /><div className="about-text">is also a very passionate Full Stack web developer, and she built this website from scratch with ReactJS. She works as a freelance web dev, so check out her portfolio <a href="https://jasmintrotter.github.io/portfolio" target="_blank">here</a> and shoot her an <a href="mailto:jasminmtrotter@gmail.com">email</a> for a quote if you are interested in her services.</div></li>
 				</ul>
 			</div>
 		);
